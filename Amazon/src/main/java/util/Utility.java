@@ -79,8 +79,7 @@ public class Utility {
 		File dest = new File("test-output\\FailedScreenshot\\"+testID+" " +formatter.format(date) + ".png" );
 		System.out.println("hello");
 		FileHandler.copy(src, dest);
-		System.out.println("hmm");
-		
+		System.out.println("hmmm");
 		
 			
 	}
