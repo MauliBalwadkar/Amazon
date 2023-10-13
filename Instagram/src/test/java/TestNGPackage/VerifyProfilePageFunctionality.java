@@ -1,7 +1,9 @@
 package TestNGPackage;
 
+import java.io.IOException;
 import java.time.Duration;
 
+import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,6 +12,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -29,6 +32,7 @@ import pages.LogOutPage;
 import pages.LoginPage;
 import pages.ProfilePage;
 import pages.ViewArchievePage;
+import utils.Utility;
 
 public class VerifyProfilePageFunctionality extends BrowserLaunch {
 
@@ -41,6 +45,7 @@ public class VerifyProfilePageFunctionality extends BrowserLaunch {
 	private ProfilePage _profilepage;
 	private  EditProfilePage _editProfilePage;
 	private LogOutPage _logOutPage;
+	private String TestID;
 	
 	@Parameters ("browser")
 	@BeforeTest
@@ -77,13 +82,13 @@ public class VerifyProfilePageFunctionality extends BrowserLaunch {
 	
 	
 	@BeforeMethod
-	public void openProfilePage() throws InterruptedException
+	public void openProfilePage() throws InterruptedException, EncryptedDocumentException, IOException
 	{   
 		Thread.sleep(5000);
 		driver.get("https://www.instagram.com/");
 		
-		 _loginpage. sendUserName("yash_kabbdi_5");
-		 _loginpage.sendPassword("yashbalwadkar");
+		 _loginpage. sendUserName(Utility.getDataFromExcelSheet("src\\test\\resources\\TestData\\amazon cart.xlsx","TestData", 2, 0));
+		 _loginpage.sendPassword(Utility.getDataFromExcelSheet("src\\test\\resources\\TestData\\amazon cart.xlsx","TestData", 2, 1));
 		 _loginpage.clickOnLoginButton();
 		 
 		 _notificationPopUp.clickOnNotNowButton();
@@ -95,6 +100,8 @@ public class VerifyProfilePageFunctionality extends BrowserLaunch {
 	public void verifyEditProfileFunctionality() throws InterruptedException
 	{
 
+		TestID="TC101";
+		
 		 _saveInformationPopup.clickOnNowButton();
 		 
 		  _homepage.clickOnProfilePicture();
@@ -122,6 +129,7 @@ public class VerifyProfilePageFunctionality extends BrowserLaunch {
 	@Test (priority=2)
 	public void verifyViewArchieveFunctionality()
 	{   
+		TestID="TC102";
          _homepage.clickOnProfilePicture();
 		_profilepage.clickOnViewArchieveButton();
 		 
@@ -134,14 +142,19 @@ public class VerifyProfilePageFunctionality extends BrowserLaunch {
 	
 	
 	@AfterMethod
-	public void LogOutFromApllication()
+	public void LogOutFromApllication(ITestResult result) throws IOException
 	{
-		_homepage.clickOnProfilePicture();
 		
+		if(ITestResult.FAILURE==result.getStatus())
+		{
+			String TestID=result.getName();
+			System.out.println(TestID);
+			Utility.captureScreenshot(driver, TestID);
+		}
+		
+		_homepage.clickOnProfilePicture();
 		driver.navigate().refresh();
-	
-	   _profilepage.clickOnsettingButton();
-	 
+		_profilepage.clickOnsettingButton();
 		_logOutPage.clickOnLogoutButton();
 	
 	}

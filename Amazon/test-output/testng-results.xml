@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-12T00:01:48 IST" name="Suite" finished-at="2023-10-12T00:03:03 IST" duration-ms="75220">
+  <suite started-at="2023-10-13T19:03:17 IST" name="Suite" finished-at="2023-10-13T19:03:57 IST" duration-ms="40593">
     <groups>
     </groups>
-    <test started-at="2023-10-12T00:01:48 IST" name="Sanity" finished-at="2023-10-12T00:03:03 IST" duration-ms="74325">
+    <test started-at="2023-10-13T19:03:17 IST" name="Sanity" finished-at="2023-10-13T19:03:57 IST" duration-ms="40477">
       <class name="TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-12T00:01:48 IST" name="launchBrowser" finished-at="2023-10-12T00:01:53 IST" duration-ms="4641" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-13T19:03:17 IST" name="launchBrowser" finished-at="2023-10-13T19:03:20 IST" duration-ms="2795" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,37 +18,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="creatingPOMObject()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-12T00:01:53 IST" name="creatingPOMObject" finished-at="2023-10-12T00:01:53 IST" duration-ms="38" status="PASS">
+        <test-method is-config="true" signature="creatingPOMObject()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-13T19:03:20 IST" name="creatingPOMObject" finished-at="2023-10-13T19:03:20 IST" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creatingPOMObject -->
-        <test-method is-config="true" signature="openProductpage()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-12T00:01:53 IST" name="openProductpage" finished-at="2023-10-12T00:02:31 IST" duration-ms="37746" status="PASS">
+        <test-method is-config="true" signature="openProductpage()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-13T19:03:20 IST" name="openProductpage" finished-at="2023-10-13T19:03:30 IST" duration-ms="10223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openProductpage -->
-        <test-method signature="verifyBuyNowFunctionality()[pri:2, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-12T00:02:31 IST" name="verifyBuyNowFunctionality" finished-at="2023-10-12T00:03:02 IST" duration-ms="31089" status="FAIL">
+        <test-method signature="verifyBuyNowFunctionality()[pri:2, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-13T19:03:30 IST" name="verifyBuyNowFunctionality" finished-at="2023-10-13T19:03:56 IST" duration-ms="26588" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
-  (Session info: chrome=117.0.5938.150)
+  (Session info: chrome=117.0.5938.152)
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5f0eef42afffadc1a3871c777ecef0bb, sendKeysToElement {id=058A6314A391A30EFDD9352FE12CE274_element_239, value=[Ljava.lang.CharSequence;@45ad21d2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53675}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53675/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5f0eef42afffadc1a3871c777ecef0bb)] -> xpath: //input[@name='password']]
-Session ID: 5f0eef42afffadc1a3871c777ecef0bb]]>
+Command: [11f27ce509fd0c69c410865a323c1ce0, sendKeysToElement {id=264B31BF84EA7F5C83753627517D62CC_element_238, value=[Ljava.lang.CharSequence;@5205b377}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63778}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63778/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (11f27ce509fd0c69c410865a323c1ce0)] -> xpath: //input[@name='password']]
+Session ID: 11f27ce509fd0c69c410865a323c1ce0]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=117.0.5938.150)
+  (Session info: chrome=117.0.5938.152)
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5f0eef42afffadc1a3871c777ecef0bb, sendKeysToElement {id=058A6314A391A30EFDD9352FE12CE274_element_239, value=[Ljava.lang.CharSequence;@45ad21d2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53675}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53675/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5f0eef42afffadc1a3871c777ecef0bb)] -> xpath: //input[@name='password']]
-Session ID: 5f0eef42afffadc1a3871c777ecef0bb
+Command: [11f27ce509fd0c69c410865a323c1ce0, sendKeysToElement {id=264B31BF84EA7F5C83753627517D62CC_element_238, value=[Ljava.lang.CharSequence;@5205b377}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63778}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63778/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (11f27ce509fd0c69c410865a323c1ce0)] -> xpath: //input[@name='password']]
+Session ID: 11f27ce509fd0c69c410865a323c1ce0
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -93,7 +93,7 @@ at java.base/java.lang.Thread.run(Thread.java:1623)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBuyNowFunctionality -->
-        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-12T00:03:02 IST" name="logOutFromApplication" finished-at="2023-10-12T00:03:02 IST" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-13T19:03:56 IST" name="logOutFromApplication" finished-at="2023-10-13T19:03:57 IST" duration-ms="183" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,19 +104,19 @@ at java.base/java.lang.Thread.run(Thread.java:1623)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromApplication -->
-        <test-method is-config="true" signature="closeObject()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-12T00:03:02 IST" name="closeObject" finished-at="2023-10-12T00:03:02 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeObject()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-13T19:03:57 IST" name="closeObject" finished-at="2023-10-13T19:03:57 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeObject -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-12T00:03:02 IST" name="closeBrowser" finished-at="2023-10-12T00:03:03 IST" duration-ms="601" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@2aceadd4]" started-at="2023-10-13T19:03:57 IST" name="closeBrowser" finished-at="2023-10-13T19:03:57 IST" duration-ms="539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality -->
     </test> <!-- Sanity -->
-    <test started-at="2023-10-12T00:01:48 IST" name="Smoke" finished-at="2023-10-12T00:03:03 IST" duration-ms="75220">
+    <test started-at="2023-10-13T19:03:17 IST" name="Smoke" finished-at="2023-10-13T19:03:57 IST" duration-ms="40593">
       <class name="TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-12T00:01:48 IST" name="launchBrowser" finished-at="2023-10-12T00:01:53 IST" duration-ms="4599" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-13T19:03:17 IST" name="launchBrowser" finished-at="2023-10-13T19:03:21 IST" duration-ms="4642" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,15 +127,15 @@ at java.base/java.lang.Thread.run(Thread.java:1623)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="creatingPOMObject()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-12T00:01:53 IST" name="creatingPOMObject" finished-at="2023-10-12T00:01:53 IST" duration-ms="53" status="PASS">
+        <test-method is-config="true" signature="creatingPOMObject()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-13T19:03:21 IST" name="creatingPOMObject" finished-at="2023-10-13T19:03:21 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creatingPOMObject -->
-        <test-method is-config="true" signature="openProductpage()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-12T00:01:53 IST" name="openProductpage" finished-at="2023-10-12T00:02:41 IST" duration-ms="48035" status="PASS">
+        <test-method is-config="true" signature="openProductpage()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-13T19:03:21 IST" name="openProductpage" finished-at="2023-10-13T19:03:39 IST" duration-ms="17416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openProductpage -->
-        <test-method signature="verifyBuyNowFunctionality()[pri:2, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-12T00:02:41 IST" name="verifyBuyNowFunctionality" finished-at="2023-10-12T00:03:03 IST" duration-ms="21777" status="FAIL">
+        <test-method signature="verifyBuyNowFunctionality()[pri:2, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-13T19:03:39 IST" name="verifyBuyNowFunctionality" finished-at="2023-10-13T19:03:56 IST" duration-ms="17689" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -143,10 +143,10 @@ at java.base/java.lang.Thread.run(Thread.java:1623)
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [cf41a45aaa04d9b673a10f08c1abf0fe, sendKeysToElement {id=710D221D13E23B60327C7F1D2B3D1D94_element_259, value=[Ljava.lang.CharSequence;@2b583c42}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.60, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53677}, msedge: {msedgedriverVersion: 116.0.1938.81 (bc0eb28b55bd..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53677/devtoo..., se:cdpVersion: 117.0.2045.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on windows (cf41a45aaa04d9b673a10f08c1abf0fe)] -> xpath: //input[@name='password']]
-Session ID: cf41a45aaa04d9b673a10f08c1abf0fe]]>
+Command: [fbc34a98c6059089711d3c33669240e2, sendKeysToElement {id=D13AC8CF5430C1DBD768FC791B3FD4BD_element_239, value=[Ljava.lang.CharSequence;@ec4bddc}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.60, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63794}, msedge: {msedgedriverVersion: 116.0.1938.81 (bc0eb28b55bd..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63794/devtoo..., se:cdpVersion: 117.0.2045.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (fbc34a98c6059089711d3c33669240e2)] -> xpath: //input[@name='password']]
+Session ID: fbc34a98c6059089711d3c33669240e2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -154,10 +154,10 @@ Session ID: cf41a45aaa04d9b673a10f08c1abf0fe]]>
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [cf41a45aaa04d9b673a10f08c1abf0fe, sendKeysToElement {id=710D221D13E23B60327C7F1D2B3D1D94_element_259, value=[Ljava.lang.CharSequence;@2b583c42}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.60, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53677}, msedge: {msedgedriverVersion: 116.0.1938.81 (bc0eb28b55bd..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53677/devtoo..., se:cdpVersion: 117.0.2045.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on windows (cf41a45aaa04d9b673a10f08c1abf0fe)] -> xpath: //input[@name='password']]
-Session ID: cf41a45aaa04d9b673a10f08c1abf0fe
+Command: [fbc34a98c6059089711d3c33669240e2, sendKeysToElement {id=D13AC8CF5430C1DBD768FC791B3FD4BD_element_239, value=[Ljava.lang.CharSequence;@ec4bddc}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.60, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63794}, msedge: {msedgedriverVersion: 116.0.1938.81 (bc0eb28b55bd..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63794/devtoo..., se:cdpVersion: 117.0.2045.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (fbc34a98c6059089711d3c33669240e2)] -> xpath: //input[@name='password']]
+Session ID: fbc34a98c6059089711d3c33669240e2
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -202,7 +202,7 @@ at java.base/java.lang.Thread.run(Thread.java:1623)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBuyNowFunctionality -->
-        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-12T00:03:03 IST" name="logOutFromApplication" finished-at="2023-10-12T00:03:03 IST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-13T19:03:56 IST" name="logOutFromApplication" finished-at="2023-10-13T19:03:57 IST" duration-ms="229" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,11 +213,11 @@ at java.base/java.lang.Thread.run(Thread.java:1623)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromApplication -->
-        <test-method is-config="true" signature="closeObject()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-12T00:03:03 IST" name="closeObject" finished-at="2023-10-12T00:03:03 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeObject()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-13T19:03:57 IST" name="closeObject" finished-at="2023-10-13T19:03:57 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeObject -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-12T00:03:03 IST" name="closeBrowser" finished-at="2023-10-12T00:03:03 IST" duration-ms="484" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGTestPackage.VerifyAddToCartAndBuyNowFunctionality@5aebe890]" started-at="2023-10-13T19:03:57 IST" name="closeBrowser" finished-at="2023-10-13T19:03:57 IST" duration-ms="581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
