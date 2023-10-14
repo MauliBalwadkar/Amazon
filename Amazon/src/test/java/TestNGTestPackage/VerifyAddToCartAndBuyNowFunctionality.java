@@ -125,7 +125,7 @@ public class VerifyAddToCartAndBuyNowFunctionality extends BrowserLaunch {
 		_shoppingCartPage.clickOnProceedToBuyButton();
 		
 		softAssert.assertAll();
-		
+		system.out.println("hi");
 		
 	}
 	
