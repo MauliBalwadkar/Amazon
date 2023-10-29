@@ -90,6 +90,7 @@ public class VerifyManageAddressFunctionality extends BrowserLaunch {
 	public void printStatement()
 	{
 		System.out.println("printTestCasePass");
+		System.out.println("Hi");
 	}
 	
 	@Test (priority=1,enabled=false)
